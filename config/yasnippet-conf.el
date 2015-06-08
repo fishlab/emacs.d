@@ -11,4 +11,4 @@
         ;"/path/to/yasnippet/yasmate/snippets" ;; the yasmate collection
         ;"/path/to/yasnippet/snippets"         ;; the default collection
         ))
-(yas-global-mode 1)
+(yas-global-mode t)

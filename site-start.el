@@ -7,6 +7,7 @@
      (color-theme-blackboard)
      ))
 (load "config/yasnippet-conf.el")
+(require 'auto-complete-conf)
 ; (set-face-font 'menu "7x14")
 ; (set-face-foreground 'menu "white")
 
