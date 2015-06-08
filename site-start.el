@@ -1,10 +1,12 @@
 ; (require 'unicad)
-
+(require 'preference-conf)
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-blackboard)))
+     (color-theme-blackboard)
+     ))
+(load "config/yasnippet-conf.el")
 ; (set-face-font 'menu "7x14")
 ; (set-face-foreground 'menu "white")
 
@@ -15,16 +17,9 @@
 
 ; (setq default-frame-alist (font . "Lucida Console 12"))
 
-; Setting English Font
-(set-face-attribute
-  'default nil :font "Consolas 12")
 
-; Chinese Font
-(dolist (charset '(kana han symbol cjk-misc bopomofo))
-    (set-fontset-font (frame-parameter nil 'font)
-                      charset
-                      (font-spec :family "Microsoft Yahei" :size 13)))
 
 
 ; (set-default-font "Consolas-14")
 ; (set-fontset-font "fontset-default" 'unicode '("微软雅黑" . "unicode-bmp"))
+

@@ -6,7 +6,7 @@
   (color-theme-install
    '(color-theme-blackboard
      (
-      ;; (background-color . "#0C1021")
+      ;;(background-color . "#0C1021")
       (background-color . "black")
       (background-mode . dark)
       (border-color . "black")
@@ -40,8 +40,8 @@
      (gui-element ((t (:background "#D4D0C8" :foreground "black"))))
      (region ((t (:background "#253B76"))))
      (mode-line ((t (:background "grey75" :foreground "black"))))
-     ;(highlight ((t (:background "#222222"))))
-     (highlight ((t (:background "#001"))))
+     (highlight ((t (:background "#222222"))))
+     ;;(highlight ((t (:background "#001"))))
      (highline-face ((t (:background "SeaGreen"))))
      (italic ((t (nil))))
      (left-margin ((t (nil))))
